@@ -1,0 +1,28 @@
+@import './common.scss';
+
+.result-panel {
+    text-align: right;
+
+    .value {
+        font-weight: bold;
+        color: $main-color;
+    }
+
+    button {
+        padding: 5px;
+        margin-left: 12px;
+        background-color: $main-color;
+        color: $background-text-color;
+    }
+
+    button:hover {
+        background: rgba(0,0,0,0);
+        color: $main-color;
+        box-shadow: inset 0 0 0 3px $main-color;
+    }
+}
+
+.empty-text {
+    text-align: center;
+    color: grey;
+}
